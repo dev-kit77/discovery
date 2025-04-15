@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Font Classes*/
+.fleur-de-leah-regular {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.almendra-regular {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.almendra-bold {
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.almendra-regular-italic {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.almendra-bold-italic {
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
 * {
-    font-family: sans-serif;
+    font-family: "Almendra", serif;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: "Fleur De Leah", cursive;
 }
 
 header {

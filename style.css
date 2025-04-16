@@ -40,6 +40,15 @@
     font-family: "Fleur De Leah", cursive;
 }
 
+a {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.carousel {
+    overflow: hidden;
+}
+
 header {
     margin: 1rem;
     top: 1rem !important;

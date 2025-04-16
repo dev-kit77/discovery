@@ -40,9 +40,14 @@
     font-family: "Fleur De Leah", cursive;
 }
 
-a {
+a:link {
     font-weight: 700;
     font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 p {

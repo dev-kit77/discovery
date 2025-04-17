@@ -36,8 +36,12 @@
     font-family: "Almendra", serif;
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
+:is(h1, h2, h3, h4) {
     font-family: "Fleur De Leah", cursive;
+}
+
+:is(h5, h6) {
+    font-weight: 700;
 }
 
 a:link {

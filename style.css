@@ -1,43 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lavishly+Yours&display=swap');
 
 /*Font Classes*/
-.fleur-de-leah-regular {
-    font-family: "Fleur De Leah", cursive;
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.almendra-regular {
-    font-family: "Almendra", serif;
-    font-weight: 400;
+.crimson-text-semibold {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
     font-style: normal;
 }
 
-.almendra-bold {
-    font-family: "Almendra", serif;
+.crimson-text-bold {
+    font-family: "Crimson Text", serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.almendra-regular-italic {
-    font-family: "Almendra", serif;
+.crimson-text-regular-italic {
+    font-family: "Crimson Text", serif;
     font-weight: 400;
     font-style: italic;
 }
 
-.almendra-bold-italic {
-    font-family: "Almendra", serif;
+.crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.crimson-text-bold-italic {
+    font-family: "Crimson Text", serif;
     font-weight: 700;
     font-style: italic;
+}
+
+.lavishly-yours-regular {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 * {
-    font-family: "Almendra", serif;
+    font-family: "Crimson Text", serif;
 }
 
 :is(h1, h2, h3, h4) {
-    font-family: "Fleur De Leah", cursive;
+    font-family: "Lavishly Yours", cursive;
 }
 
 :is(h5, h6) {

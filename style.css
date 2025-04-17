@@ -44,6 +44,10 @@
     font-weight: 700;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
 a:link {
     font-weight: 700;
     font-style: italic;

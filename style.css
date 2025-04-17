@@ -56,7 +56,11 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #f1e9d2 !important;
+}
+
+.card {
+    background-color: #edece8 !important;
 }
 
 a:link {
